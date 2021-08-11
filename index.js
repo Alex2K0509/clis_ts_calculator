@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var readline_sync_1 = require("readline-sync");
 function main() {
     var firstString = readline_sync_1.question("Ingresa un numero:\n");
@@ -21,7 +21,7 @@ function main() {
 }
 /*
 @function Realiza las operaciones que se le solicite
-@return El resultado de la operacion
+@return El resultado de la operacions
 */
 function calculate(firstNum, operator, secondNum) {
     switch (operator) {

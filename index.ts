@@ -34,7 +34,7 @@ function main(): void {
 }
 /*
 @function Realiza las operaciones que se le solicite
-@return El resultado de la operacion
+@return El resultado de la operacions
 */
 
 function calculate(firstNum: number, operator: string, secondNum: number) {
